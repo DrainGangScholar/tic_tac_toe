@@ -1,4 +1,6 @@
-pub use board::Board;
-pub use cell::Cell;
-pub mod board;
-pub mod cell;
+pub use computer::Computer;
+pub use game::Game;
+pub use player::Player;
+pub mod computer;
+pub mod game;
+pub mod player;
